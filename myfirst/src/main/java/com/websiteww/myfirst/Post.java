@@ -3,9 +3,9 @@ package com.websiteww.myfirst;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Post {
-    int id;
-    String title;
-    String content;
+    public int id;
+    public String title;
+    public String content;
     public Post(
     @JsonProperty("id") int id,
     @JsonProperty("title") String title,  
